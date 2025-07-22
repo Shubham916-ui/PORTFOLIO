@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/417b585fea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/image-removebg-preview.png" class="logo">
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header">
+                <p>WEB DEV,FULL STACK DEV</p>
+                <h1>Hi i'm <span>Shubham</span><br>Vishwakarma From India </h1>
+            </div>
+        </div>
+    </div>
+    <!--------------------about -->
+    <div id="about">
+        <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio officia sit modi impedit commodi, voluptatum tenetur! Doloremque vero, ipsam mollitia totam dolorem, veniam quidem dicta illum exercitationem eius aliquam officia itaque dolorum, esse cumque! Maxime illo esse corrupti, eaque architecto nobis optio est minima sit quod, in molestiae dolorem quas autem reprehenderit a sed id et vitae provident! Itaque aliquam, dolorum hic et quasi commodi provident molestiae iusto, sint tempora voluptatum totam tempore neque repellat iste, quos nesciunt enim numquam veritatis sunt nemo doloremque. Ducimus, deleniti itaque incidunt quia enim perferendis assumenda eos culpa aliquid, praesentium amet, iure beatae dolores?</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-content active-tab" id="skills">
+                <ul>
+                <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+                <li><span>Web Devlopment</span><br>Web App Devlopment</li>
+                <li><span>App Devlopment</span><br>Building Android/ios Apps</li>
+                </ul>
+                </div>
+                <div class="tab-content" id="experience">
+  <ul>
+    <li><span>Internship at Oasis Infobyte</span><br>Worked on Java development & earned 'Star Performer' certificate</li>
+    <li><span>Outlier AI</span><br>Math Trainer – Solved AI tasks and delivered hourly work</li>
+    <li><span>Personal Projects</span><br>Built portfolio, reservation system, and guessing game using Java & Web</li>
+  </ul>
+</div>
+
+                <div class="tab-content" id="education">
+  <ul>
+    <li><span>Bachelor of Computer Applications (BCA)</span><br>Final Year, 2025</li>
+    <li><span>Web Development</span><br>Learned HTML, CSS, JavaScript, React, and TypeScript</li>
+    <li><span>Java Programming</span><br>Completed Java + DSA course, built multiple backend projects</li>
+  </ul>
+</div>
+
+                </div>
+        </div>
+        </div>
+    </div>
+     <!--------------------about -->
+     <div id="Services">
+            <div class="container">
+         <h1 class="sub-title">My Services</h1>
+         <div class="services-lists">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis consequuntur pariatur velit cum? Deleniti aut nobis dolorum iste consequuntur molestiae amet sit rem, sunt architecto. Praesentium reprehenderit aut accusamus rem.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis consequuntur pariatur velit cum? Deleniti aut nobis dolorum iste consequuntur molestiae amet sit rem, sunt architecto. Praesentium reprehenderit aut accusamus rem.</p>
+                <a href="#">Learn More</a>
+
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis consequuntur pariatur velit cum? Deleniti aut nobis dolorum iste consequuntur molestiae amet sit rem, sunt architecto. Praesentium reprehenderit aut accusamus rem.</p>
+                <a href="#">Learn More</a>
+            </div>
+         </div>
+            </div>
+        </div>
+<!--------------portfolio----------->
+       <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum quos repellat accusamus dolorum dignissimos at dolores libero expedita ex consectetur.</p>
+                     <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Media App</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum quos repellat accusamus dolorum dignissimos at dolores libero expedita ex consectetur.</p>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Onnline Shoping App</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum quos repellat accusamus dolorum dignissimos at dolores libero expedita ex consectetur.</p>
+                     <a href=""><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- From Uiverse.io by Ashon-G --> 
+ <div class="button-wrap">
+    <div class="btn"><a href="#">Read More</a></div>
+ </div>
+    </div>
+</div>
+<!------------------contact------------>
+
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-solid fa-envelope"></i>Shubhamvishwakarma32012@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>9682006495</p>
+            <div class="social-icons">
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-x"></i></a>
+            </div>
+            <a href="images/Shubham_Vishwakarma_Resume.pdf.pdf (1).pdf"download class="download-cv-btn">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="download-cv-btn">submit</button>
+                <span id="msg"></span>
+            </form>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+
+    <script>
+        var tablink = document.getElementsByClassName("tab-links");
+                var tabcontent = document.getElementsByClassName("tab-content");
+                        
+                        function opentab(tabname){
+                        for(tablin of tablink){
+                                tablin.classList.remove("active-links");
+                            }
+                            for(tabcont of tabcontent){
+                                tabcont.classList.remove("active-tab");
+                            }
+                            event.currentTarget.classList.add("active-links");
+                            document.getElementById(tabname).classList.add("active-tab");
+                        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("side-menu");
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+
+
+
+    </script>
+
+    <script>
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyo3xQYunnZYaHWBZQWa65oReggqDVFGJhQjZbms0CX7wCb4u9f84tRWngqCyGWXLhV/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg");
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+      msg.innerHTML = "Message sent successfully!";
+      form.reset();
+      setTimeout(function(){
+        msg.innerHTML = "";
+      }, 5000); // 5 seconds
+    })
+    .catch(error => {
+      msg.innerHTML = "Error! Message not sent.";
+      setTimeout(function(){
+        msg.innerHTML = "";
+      }, 5000);
+    });
+});
+</script>
+
+    <footer class="copyright">
+  &copy; 2024 Shubham Vishwakarma. All rights reserved.
+</footer>
+</body>
+</html>
